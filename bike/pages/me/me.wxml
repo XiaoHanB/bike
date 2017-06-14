@@ -1,0 +1,68 @@
+<view class="classname">
+  <view class="user_icon_view">
+    <image class="menu-img" src="../images/user_icon.jpg" />
+  </view>
+  <view class="user_setting">
+    <view class="item">
+      <view class="item-left">
+        <image src="../images/money.png" class="image" />
+      </view>
+      <view class="title">
+       <text class="">充值</text>
+      </view>
+      <view class="item_right">
+        <image src="../images/right.png" class="image" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view class="item-left">
+        <image src="../images/redbag.png" class="image" />
+      </view>
+      <view class="title">
+       <text class="">红包</text>
+      </view>
+      <view class="item_right">
+        <image src="../images/right.png" class="image" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view class="item-left">
+        <image src="../images/service.png" class="image" />
+      </view>
+      <view class="title">
+       <text class="">联系客服</text>
+      </view>
+      <view class="item_right">
+        <image src="../images/right.png" class="image" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="line_fff"></view>
+    <view class="item">
+      <view class="item-left">
+        <image src="../images/insert.png" class="image" />
+      </view>
+      <view class="title">
+       <text class="">加盟/合作</text>
+      </view>
+      <view class="item_right">
+        <image src="../images/right.png" class="image" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view class="item-left">
+        <image src="../images/setting.png" class="image" />
+      </view>
+      <view class="title">
+       <text class="">设置</text>
+      </view>
+      <view class="item_right">
+        <image src="../images/right.png" class="image" />
+      </view>
+    </view>
+    <view class="line"></view>
+  </view>
+</view>

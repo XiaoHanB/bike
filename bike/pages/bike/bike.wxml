@@ -1,0 +1,26 @@
+<view class="page">
+  <view class="bike_item">
+    <view class="bike_line">
+      <view   class="bike_title"  bindtap="onChangeShowState">
+        <text  class="bike_title_1 {{showView?'bike_title_1_changes':'bike_title_1_change'}}">补内胎</text>
+        <text  class="bike_title_2 {{showView?'bike_title_1_changes':'bike_title_1_change'}}">5元/个</text>
+        <image  class="bike_title_3  {{showView?'bike_title_image':'bike_title_images'}}" mode="aspectFit" ></image>
+      </view>
+      <view class="{{showView?'bike_con_hidden':'bike_con'}}">
+        <view class="blke_comm">
+          <text class="bike_info">说起藏獒，在中国是无人不知无人不晓啊，它身体强健，咬合力惊人.它身体强健，咬合力惊人”。</text>
+        </view>   
+      <view class="btn-numbox">
+            <ul class="count ">
+              <li><span id="num-jian" class="num-jian">-</span> </li>
+              <li>
+                <span  class="input-num" id="input-num" >0</span>
+              </li>
+              <li><span id="num-jia" class="num-jia">+</span> </li>
+            </ul>
+     </view>      
+      </view>
+      <view class="botton_line"></view>
+    </view>
+  </view>
+</view>

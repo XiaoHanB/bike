@@ -1,0 +1,139 @@
+text {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #4b4949;
+}
+
+.bike_item {
+  width: 100%;
+}
+
+.bike_title {
+  height: 20px;
+  float: left; /**/
+  width: 100%;
+  line-height: 20px;
+  margin-left: 10%;
+}
+
+.bike_title_1 {
+  width: 60%;
+  display: inline-block;
+}
+.bike_title_1_change {
+  color: #ee6e13;
+}
+.bike_title_1_changes {
+  color: #333;  
+}
+.bike_title_image {
+  src:url('../images/down_rate.png');
+}
+.bike_title_images {
+  src:url('../images/up_rate.png');
+}
+
+.bike_title_3 {
+  margin-left: 3%;
+  width: 13px;
+  display: inline-block;
+  height: 12px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.botton_line {
+  width: 90%;
+  height: 1px;
+  margin: 2% 5% 0 5%;
+  background-color: #bbb8b9;
+  float: left; /**/
+}
+
+.bike_con {
+  width: 90%;
+  display: inline-block;
+  margin: 2% 5% 0 5%;
+  position: relative;
+  height: 100%;
+  line-height: 107%;
+}
+
+.bike_con_hidden {
+  width: 90%;
+  display: none;
+  margin: 2% 5% 0 5%;
+  position: relative;
+  height: 100%;
+  line-height: 107%;
+}
+
+.blke_comm {
+  display: inline-block;
+  width: 50%;
+}
+
+.bike_info {
+  font-size: 12px;
+  line-height: 11px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.btn-numbox {
+  margin-top: -15%;
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  text-align: right;
+  position: absolute;
+  bottom: -26%;
+}
+
+.btn-numbox >li {
+  width: 130px;
+  float: left;
+  margin-top: -14px;
+  margin-left: 13%;
+}
+
+.btn-numbox li .number, .kucun {
+  display: inline-block;
+  font-size: 12px;
+  color: #808080;
+  vertical-align: sub;
+}
+
+.btn-numbox .count {
+  overflow: hidden;
+}
+
+.btn-numbox .count .num-jian, .input-num, .num-jia {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+}
+
+.btn-numbox .count .num-jia {
+  margin-left: 1px;
+}
+
+.btn-numbox .count .input-num {
+  width: 29px;
+  height: 18px;
+  color: #333;
+  border-left: 0;
+  border-right: 0;
+}
+
+.count {
+  margin-top: 10px;
+}
